@@ -1,0 +1,74 @@
+/* Page Layout */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(96, 180, 195);
+    color: rgb(18, 10, 173);
+    margin: 25px;
+}
+
+/* Headings */
+h1 {
+    color: brown;
+    text-align: Center;
+    text-decoration: underline;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Link Design */
+a {
+    color: rgb(237, 220, 34);
+    text-decoration: dotted;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+/* Image Style */
+img {
+    display: ruby;
+    margin-top: -10px;
+    border: 2px solid #001206;
+    border-radius: 20px;
+    border-spacing: 10px;
+}
+
+/* audio and video style */
+audio,
+video {
+    display:grid;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 1px solid #001206;
+    border-radius: 30px;
+}
+
+/* Button Style */
+button {
+    background-color: indianred;
+    color: burlywood;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: default;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: blue;
+}
